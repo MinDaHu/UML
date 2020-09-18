@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-09-18T15:40:31.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.6.10" etag="HeyOfA6KORECp3fIotu5" type="github"><diagram id="4azKM8P37WWzpmBWxqD8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-18T15:45:43.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="J4TKPW2TeaS5pN7Ptso-" version="13.6.10" type="github">
+  <diagram id="4azKM8P37WWzpmBWxqD8" name="第 1 页">
+    <mxGraphModel dx="868" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SFyTLNCFnCW1Vel4IRKU-1" value="书店访客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SFyTLNCFnCW1Vel4IRKU-2" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="490" y="440" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SFyTLNCFnCW1Vel4IRKU-4" value="书店会员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="160" y="550" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SFyTLNCFnCW1Vel4IRKU-6" value="书店管理员" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="560" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SFyTLNCFnCW1Vel4IRKU-7" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="SFyTLNCFnCW1Vel4IRKU-4" target="SFyTLNCFnCW1Vel4IRKU-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="390" as="sourcePoint" />
+            <mxPoint x="210" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
