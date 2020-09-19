@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-19T02:36:28.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="dPv3fJ5i0r0j_EW_pi4I" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-19T07:54:50.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="G6cKPENEOzISn73sMtWk" version="13.6.10" type="github">
   <diagram id="9hAJw_1kMw5sHnv18PF5" name="第 1 页">
-    <mxGraphModel dx="1543" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1553" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,25 +99,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OxiHDLjF6rZ07tOKBesM-9" value="会员" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="175" y="239" width="130" height="182" as="geometry" />
+          <mxGeometry x="171" y="180" width="165" height="234" as="geometry" />
         </mxCell>
         <mxCell id="OxiHDLjF6rZ07tOKBesM-54" value="+ 编号: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="OxiHDLjF6rZ07tOKBesM-9">
-          <mxGeometry y="26" width="130" height="26" as="geometry" />
+          <mxGeometry y="26" width="165" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OxiHDLjF6rZ07tOKBesM-11" value="+ 姓名: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="OxiHDLjF6rZ07tOKBesM-9">
-          <mxGeometry y="52" width="130" height="26" as="geometry" />
+          <mxGeometry y="52" width="165" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OxiHDLjF6rZ07tOKBesM-10" value="+ 邮箱: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="OxiHDLjF6rZ07tOKBesM-9">
-          <mxGeometry y="78" width="130" height="26" as="geometry" />
+          <mxGeometry y="78" width="165" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OxiHDLjF6rZ07tOKBesM-63" value="+ 手机号: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="OxiHDLjF6rZ07tOKBesM-9">
-          <mxGeometry y="104" width="130" height="26" as="geometry" />
+          <mxGeometry y="104" width="165" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OxiHDLjF6rZ07tOKBesM-50" value="+ 联系地址: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="OxiHDLjF6rZ07tOKBesM-9">
-          <mxGeometry y="130" width="130" height="26" as="geometry" />
+          <mxGeometry y="130" width="165" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OxiHDLjF6rZ07tOKBesM-55" value="+ 密码: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="OxiHDLjF6rZ07tOKBesM-9">
-          <mxGeometry y="156" width="130" height="26" as="geometry" />
+        <mxCell id="OxiHDLjF6rZ07tOKBesM-81" value="+ 密码: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="OxiHDLjF6rZ07tOKBesM-9">
+          <mxGeometry y="156" width="165" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OxiHDLjF6rZ07tOKBesM-80" value="+ 登陆日期: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="OxiHDLjF6rZ07tOKBesM-9">
+          <mxGeometry y="182" width="165" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OxiHDLjF6rZ07tOKBesM-55" value="+ 密码错误次数: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="OxiHDLjF6rZ07tOKBesM-9">
+          <mxGeometry y="208" width="165" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OxiHDLjF6rZ07tOKBesM-5" value="购物车" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="425" y="110" width="140" height="52" as="geometry" />
@@ -141,7 +147,7 @@
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OxiHDLjF6rZ07tOKBesM-1" value="订单" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="170" y="479" width="140" height="208" as="geometry" />
+          <mxGeometry x="181" y="479" width="140" height="208" as="geometry" />
         </mxCell>
         <mxCell id="OxiHDLjF6rZ07tOKBesM-73" value="+ 编号: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="OxiHDLjF6rZ07tOKBesM-1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
