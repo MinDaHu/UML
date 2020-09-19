@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-19T05:11:59.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Vfr_SRD3E9acR__oW4fC" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-19T05:51:04.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="zj_3y-k_leiAnSDKwqn-" version="13.6.10" type="github">
   <diagram id="TR5-IoN3J7DlVOt05m8w" name="第 1 页">
-    <mxGraphModel dx="1543" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1240" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -536,6 +536,74 @@
         </mxCell>
         <mxCell id="N2rn5LJ_M0JWkOlmpVPW-208" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="450.5" y="2820" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-234" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endSize=8;fontSize=15;endFill=0;" edge="1" parent="1" source="N2rn5LJ_M0JWkOlmpVPW-218" target="N2rn5LJ_M0JWkOlmpVPW-221">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-236" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Internet[https]&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="N2rn5LJ_M0JWkOlmpVPW-234">
+          <mxGeometry x="-0.4231" y="1" relative="1" as="geometry">
+            <mxPoint x="23.43" y="-14.19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-218" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;宋体&quot;&gt;&lt;b&gt;&lt;br&gt;客户端浏览器&lt;/b&gt;&lt;/font&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=21;direction=south;fontStyle=4;html=1;rounded=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="3040" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-219" value="《artifact》&lt;br&gt;IE、Chrome" style="html=1;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="290" y="3120" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-237" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=95.5;entryDy=220;entryPerimeter=0;endArrow=none;endSize=8;fontSize=15;endFill=0;" edge="1" parent="1" source="N2rn5LJ_M0JWkOlmpVPW-221" target="N2rn5LJ_M0JWkOlmpVPW-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-241" value="LAN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="N2rn5LJ_M0JWkOlmpVPW-237">
+          <mxGeometry x="-0.2449" relative="1" as="geometry">
+            <mxPoint x="-2.07" y="-10.33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-221" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;宋体&quot;&gt;&lt;b&gt;&lt;br&gt;Web前置 服务器&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=21;direction=south;fontStyle=4;html=1;rounded=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="630" y="3040" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-222" value="《artifact》&lt;br&gt;Nginx 服务器" style="html=1;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="679.5" y="3120" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-239" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;endSize=8;fontSize=15;" edge="1" parent="1" source="N2rn5LJ_M0JWkOlmpVPW-223" target="N2rn5LJ_M0JWkOlmpVPW-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-242" value="LAN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="N2rn5LJ_M0JWkOlmpVPW-239">
+          <mxGeometry x="-0.4365" y="1" relative="1" as="geometry">
+            <mxPoint x="-2.46" y="8.56" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-223" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;宋体&quot;&gt;&lt;b&gt;&lt;br&gt;网上书店管理系统 服务器&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=21;direction=south;fontStyle=4;html=1;rounded=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="990" y="3030" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-228" value="《artifact》&lt;br&gt;网上书店&lt;br&gt;WebApplication" style="html=1;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="3119" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-229" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;宋体&quot;&gt;&lt;b&gt;&lt;br&gt;数据库 服务器&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=21;direction=south;fontStyle=4;html=1;rounded=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="987.5" y="3310" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-232" value="数据库" style="html=1;dropTarget=0;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="3390" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-233" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="N2rn5LJ_M0JWkOlmpVPW-232">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-243" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.647;entryY=0.773;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;endSize=8;fontSize=15;dashed=1;" edge="1" parent="1" source="N2rn5LJ_M0JWkOlmpVPW-219" target="N2rn5LJ_M0JWkOlmpVPW-221">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-244" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;fontSize=15;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="N2rn5LJ_M0JWkOlmpVPW-222" target="N2rn5LJ_M0JWkOlmpVPW-228">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="3159.998270364577" as="sourcePoint" />
+            <mxPoint x="689.9400000000003" y="3159.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2rn5LJ_M0JWkOlmpVPW-245" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;fontSize=15;dashed=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="N2rn5LJ_M0JWkOlmpVPW-228" target="N2rn5LJ_M0JWkOlmpVPW-232">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="712.25" y="3381" as="sourcePoint" />
+            <mxPoint x="947.75" y="3380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
