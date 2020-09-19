@@ -1,1 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2020-09-19T11:41:35.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.6.10" etag="XFGEPwE16wmt6cU-pbIE" type="github"><diagram id="Wqk-bRsmxlPOt6fCbwr8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-19T12:37:23.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="UJFCMKLtMFSEDZwNqXS6" version="13.6.10" type="github">
+  <diagram id="Wqk-bRsmxlPOt6fCbwr8" name="第 1 页">
+    <mxGraphModel dx="1320" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object placeholders="1" c4Name="" c4Type="ExecutionEnvironment" c4Application="网上书店系统总体架构" label="&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="mTgo8MGDyOx_P4RDNgVL-37">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="210" y="110" width="740" height="490" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-3" target="mTgo8MGDyOx_P4RDNgVL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=76;exitDy=14;exitPerimeter=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-4" target="mTgo8MGDyOx_P4RDNgVL-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-3" value="WebController" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="112" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;entryX=-0.027;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-4" target="mTgo8MGDyOx_P4RDNgVL-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=0;exitY=0;exitDx=112;exitDy=14;exitPerimeter=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-4" target="mTgo8MGDyOx_P4RDNgVL-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-4" value="BusinessService" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="280" width="112" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-5" target="mTgo8MGDyOx_P4RDNgVL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-5" target="mTgo8MGDyOx_P4RDNgVL-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-5" value="Dao" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="112" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-6" target="mTgo8MGDyOx_P4RDNgVL-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-6" value="Entity" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="390" width="112" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.982;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-7" target="mTgo8MGDyOx_P4RDNgVL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-7" target="mTgo8MGDyOx_P4RDNgVL-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="530" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=76;entryDy=14;entryPerimeter=0;dashed=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-7" target="mTgo8MGDyOx_P4RDNgVL-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-7" target="mTgo8MGDyOx_P4RDNgVL-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-7" value="MyBatis" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="390" width="112" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-17" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="629" y="500" width="94" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="620" as="sourcePoint" />
+            <mxPoint x="300" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-20" target="mTgo8MGDyOx_P4RDNgVL-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-20" value="VO" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="611" y="180" width="112" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-22" target="mTgo8MGDyOx_P4RDNgVL-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-22" value="JDBC" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="490" width="112" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.545;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="mTgo8MGDyOx_P4RDNgVL-23" target="mTgo8MGDyOx_P4RDNgVL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="300.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-23" value="Web采用thymeleaf框架，主负责展示数据和界面给用户" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-25" value="Controller采用SpringMVC框架，负责处理Web的请求数据，并将请求数据组装发送至业务处理BussinessServce层进行逻辑处理，待其处理完成后将返回数据组装并选择相应的页面发送给客户端" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="180" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-27" value="负责数据的数据库操作，在此完成调用MyBatis完成数据库的各种操作" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" vertex="1" parent="1">
+          <mxGeometry x="790" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-29" value="标准JDBC由MyBatis提供支持" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="490" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-31" value="由MyBatis提供支持，完成数据数据与实体对象的相互转换" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="390" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-33" value="VO是Web视图对象，是复合对象，主要是将数据库实体对象聚合成页面所需要的数据对象" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" vertex="1" parent="1">
+          <mxGeometry x="790" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTgo8MGDyOx_P4RDNgVL-35" value="标准的ORM框架" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" vertex="1" parent="1">
+          <mxGeometry x="790" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
