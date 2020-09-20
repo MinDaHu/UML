@@ -1,147 +1,457 @@
-<mxfile host="app.diagrams.net" modified="2020-09-20T12:27:23.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="vTea3FCMAWU9nmILE3YQ" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-20T13:12:20.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="gkxXkK4-F0LoW5hW5xzd" version="13.6.10" type="github" pages="2">
   <diagram id="6X_hmf_EJJS734PtGBnM" name="第 1 页">
-    <mxGraphModel dx="4724" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1729" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="N8du5w29IZQsb6Iyptna-2" value="::BookController" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="80" width="40" height="1380" as="geometry" />
+        <mxCell id="N8du5w29IZQsb6Iyptna-2" value=":BookController" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="77.5" width="505" height="1082.5" as="geometry" />
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N8du5w29IZQsb6Iyptna-2">
-          <mxGeometry x="17.83" y="170" width="10" height="240" as="geometry" />
+        <mxCell id="9vR_6EBCFm1HqxFriETd-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N8du5w29IZQsb6Iyptna-2">
+          <mxGeometry x="495" y="873.13" width="10" height="61.25" as="geometry" />
+        </mxCell>
+        <mxCell id="9vR_6EBCFm1HqxFriETd-2" value="return JSON" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="N8du5w29IZQsb6Iyptna-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-165.00000000000023" y="962.5" as="targetPoint" />
+            <mxPoint x="25" y="962.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vR_6EBCFm1HqxFriETd-3" value="addBookTypeById()" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="N8du5w29IZQsb6Iyptna-2" target="9vR_6EBCFm1HqxFriETd-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-165.00000000000023" y="832.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vR_6EBCFm1HqxFriETd-4" value="显示图书分类列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="N8du5w29IZQsb6Iyptna-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-385.0000000000002" y="1002.5" as="targetPoint" />
+            <mxPoint x="-170.5" y="1002.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vR_6EBCFm1HqxFriETd-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N8du5w29IZQsb6Iyptna-2">
+          <mxGeometry x="227" y="842.5" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9vR_6EBCFm1HqxFriETd-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="N8du5w29IZQsb6Iyptna-2">
+          <mxGeometry x="15" y="832.5" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9vR_6EBCFm1HqxFriETd-8" value="addBookTypeById()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.152;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="N8du5w29IZQsb6Iyptna-2" target="9vR_6EBCFm1HqxFriETd-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24.5" y="861.4200000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vR_6EBCFm1HqxFriETd-9" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="N8du5w29IZQsb6Iyptna-2" source="9vR_6EBCFm1HqxFriETd-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24.5" y="947" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vR_6EBCFm1HqxFriETd-10" value="addBookTypeById()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="N8du5w29IZQsb6Iyptna-2" target="9vR_6EBCFm1HqxFriETd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231.5" y="876.25" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vR_6EBCFm1HqxFriETd-11" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="N8du5w29IZQsb6Iyptna-2" source="9vR_6EBCFm1HqxFriETd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231.5" y="934.4375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vR_6EBCFm1HqxFriETd-5" value="新增图书品类" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.045;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="N8du5w29IZQsb6Iyptna-2" target="N8du5w29IZQsb6Iyptna-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-390.0000000000002" y="822.5" as="sourcePoint" />
+            <mxPoint x="-175.00000000000023" y="822.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="N8du5w29IZQsb6Iyptna-4" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="80" width="90" height="1370" as="geometry" />
+          <mxGeometry x="50" y="80" width="90" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="N8du5w29IZQsb6Iyptna-5" value="&lt;b&gt;：书店管理员&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N8du5w29IZQsb6Iyptna-4">
           <mxGeometry x="-10" y="40" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-6" value="&lt;span&gt;：书店首页&lt;/span&gt;" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="200" y="82.5" width="70" height="1370" as="geometry" />
+        <mxCell id="N8du5w29IZQsb6Iyptna-6" value="&lt;span style=&quot;font-weight: normal&quot;&gt;：后台登陆页面&lt;/span&gt;" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="82.5" width="70" height="1077.5" as="geometry" />
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="N8du5w29IZQsb6Iyptna-6">
-          <mxGeometry x="31.47" y="500" width="10" height="700" as="geometry" />
+        <mxCell id="N8du5w29IZQsb6Iyptna-64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N8du5w29IZQsb6Iyptna-6">
+          <mxGeometry x="30" y="117.5" width="10" height="152.5" as="geometry" />
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-52" value="调整购物车数目" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="N8du5w29IZQsb6Iyptna-6">
+        <mxCell id="N8du5w29IZQsb6Iyptna-26" value=":ManagerSerice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="100" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N8du5w29IZQsb6Iyptna-26">
+          <mxGeometry x="48" y="140.5" width="10" height="99.5" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N8du5w29IZQsb6Iyptna-26">
+          <mxGeometry x="60" y="202.5" width="10" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-82" value="查询结果为空则返回登陆失败" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="N8du5w29IZQsb6Iyptna-81" parent="N8du5w29IZQsb6Iyptna-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-119.4585714285713" y="527.5" as="sourcePoint" />
-            <mxPoint x="41.470000000000255" y="527.5" as="targetPoint" />
+            <mxPoint x="65" y="182.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="182.5" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-26" value=":BookSerice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="80" width="100" height="1370" as="geometry" />
-        </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="N8du5w29IZQsb6Iyptna-26">
-          <mxGeometry x="47.83000000000001" y="180" width="10" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-28" value="listShopingCar()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="N8du5w29IZQsb6Iyptna-3">
+        <mxCell id="N8du5w29IZQsb6Iyptna-29" value="return JSON" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="N8du5w29IZQsb6Iyptna-63">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="272.8299999999999" y="250.00000000000034" as="sourcePoint" />
+            <mxPoint x="264.99999999999994" y="562.4999999999998" as="targetPoint" />
+            <mxPoint x="510" y="560" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-29" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="N8du5w29IZQsb6Iyptna-3">
+        <mxCell id="N8du5w29IZQsb6Iyptna-30" value="listBookTypes()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="N8du5w29IZQsb6Iyptna-27" source="N8du5w29IZQsb6Iyptna-63">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="272.8299999999999" y="477.9999999999998" as="targetPoint" />
+            <mxPoint x="399.32352941176464" y="450.00000000000034" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-30" value="listShopingCar()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="N8du5w29IZQsb6Iyptna-27" source="N8du5w29IZQsb6Iyptna-2">
+        <mxCell id="N8du5w29IZQsb6Iyptna-32" value="显示图书分类列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="N8du5w29IZQsb6Iyptna-62">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720.4728571428577" y="269.99999999999955" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-31" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="N8du5w29IZQsb6Iyptna-27" target="N8du5w29IZQsb6Iyptna-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="722.47" y="418" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-32" value="显示购物车列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="506" as="targetPoint" />
-            <mxPoint x="262.8299999999999" y="505.4999999999993" as="sourcePoint" />
+            <mxPoint x="100" y="600" as="targetPoint" />
+            <mxPoint x="228.66999999999985" y="601.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="N8du5w29IZQsb6Iyptna-33" value=":BookTypeMapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="950" y="82.5" width="100" height="1375" as="geometry" />
+          <mxGeometry x="940" y="80" width="100" height="1080" as="geometry" />
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="N8du5w29IZQsb6Iyptna-33">
-          <mxGeometry x="40.47" y="285" width="10" height="48" as="geometry" />
+        <mxCell id="N8du5w29IZQsb6Iyptna-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N8du5w29IZQsb6Iyptna-33">
+          <mxGeometry x="45" y="390" width="10" height="61.25" as="geometry" />
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-35" value="listBookByIds()" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="N8du5w29IZQsb6Iyptna-33">
+        <mxCell id="N8du5w29IZQsb6Iyptna-92" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N8du5w29IZQsb6Iyptna-33">
+          <mxGeometry x="45" y="630.63" width="10" height="61.25" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-49" value="ManagerMapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="82.5" width="100" height="1077.5" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N8du5w29IZQsb6Iyptna-49">
+          <mxGeometry x="45" y="150" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-10" value="查看图书品类列表" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="N8du5w29IZQsb6Iyptna-63">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-697.696666666666" y="292" as="sourcePoint" />
-            <mxPoint x="40.47" y="292" as="targetPoint" />
+            <mxPoint x="95" y="420" as="sourcePoint" />
+            <mxPoint x="234.5" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-36" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="N8du5w29IZQsb6Iyptna-33" source="N8du5w29IZQsb6Iyptna-34">
+        <mxCell id="N8du5w29IZQsb6Iyptna-62" value="&lt;span style=&quot;font-weight: normal&quot;&gt;：后台管理页面&lt;/span&gt;" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="82.5" width="70" height="1077.5" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="N8du5w29IZQsb6Iyptna-62">
+          <mxGeometry x="30" y="317.5" width="10" height="752.5" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-65" value="登陆" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="N8du5w29IZQsb6Iyptna-64" parent="1" source="N8du5w29IZQsb6Iyptna-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-698.53" y="331" as="targetPoint" />
+            <mxPoint x="160" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="N8du5w29IZQsb6Iyptna-33">
-          <mxGeometry x="-189.03" y="625" width="10" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="N8du5w29IZQsb6Iyptna-33">
-          <mxGeometry x="-695.6700000000001" y="595" width="10" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="N8du5w29IZQsb6Iyptna-33">
-          <mxGeometry x="46.47" y="695" width="10" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-44" value="reduceInventoryById()" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="N8du5w29IZQsb6Iyptna-33">
+        <mxCell id="N8du5w29IZQsb6Iyptna-66" value="登陆结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="N8du5w29IZQsb6Iyptna-64" parent="1" target="N8du5w29IZQsb6Iyptna-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-693.1966666666669" y="702.0000000000005" as="sourcePoint" />
-            <mxPoint x="50.47" y="702" as="targetPoint" />
+            <mxPoint x="160" y="276" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-45" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="N8du5w29IZQsb6Iyptna-33" source="N8du5w29IZQsb6Iyptna-43">
+        <mxCell id="N8du5w29IZQsb6Iyptna-67" value=":BookSerice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="667" y="80" width="100" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-83" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N8du5w29IZQsb6Iyptna-67">
+          <mxGeometry x="45" y="360" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-69" value=":ManagerController" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="78.75" width="40" height="1081.25" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N8du5w29IZQsb6Iyptna-69">
+          <mxGeometry x="17.83" y="131.25" width="10" height="128.75" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-73" value="login()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="N8du5w29IZQsb6Iyptna-72" parent="1" source="N8du5w29IZQsb6Iyptna-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-699.03" y="740.9999999999995" as="targetPoint" />
+            <mxPoint x="328" y="190" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-46" value="lincreaseGoodsByBookId()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="N8du5w29IZQsb6Iyptna-33" source="N8du5w29IZQsb6Iyptna-38" target="N8du5w29IZQsb6Iyptna-37">
+        <mxCell id="N8du5w29IZQsb6Iyptna-74" value="return JSON" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="N8du5w29IZQsb6Iyptna-72" parent="1" target="N8du5w29IZQsb6Iyptna-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-693.0271428571432" y="594.9999999999995" as="sourcePoint" />
+            <mxPoint x="328" y="266" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-47" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=0.95;entryY=0.426;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="N8du5w29IZQsb6Iyptna-33" source="N8du5w29IZQsb6Iyptna-37" target="N8du5w29IZQsb6Iyptna-38">
+        <mxCell id="N8du5w29IZQsb6Iyptna-76" value="login()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="N8du5w29IZQsb6Iyptna-75" parent="1" source="N8du5w29IZQsb6Iyptna-69">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-693.0271428571432" y="670.9999999999995" as="targetPoint" />
+            <mxPoint x="558" y="221" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-49" value="BookMapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="760" y="82.5" width="100" height="1372.5" as="geometry" />
-        </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-54" value="[调整数量&amp;lt;0]减少数量" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-28.53" y="960" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-56" value="显示是否调整成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1">
+        <mxCell id="N8du5w29IZQsb6Iyptna-77" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="N8du5w29IZQsb6Iyptna-75" parent="1" target="N8du5w29IZQsb6Iyptna-69">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="93.43352941176454" y="890" as="targetPoint" />
-            <mxPoint x="260.47000000000025" y="890" as="sourcePoint" />
+            <mxPoint x="558" y="297" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-57" value="显示是否调整成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1">
+        <mxCell id="N8du5w29IZQsb6Iyptna-79" value="getManagerByNameAndPwd()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="N8du5w29IZQsb6Iyptna-78" parent="1" source="N8du5w29IZQsb6Iyptna-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="93.43352941176454" y="1274.5" as="targetPoint" />
-            <mxPoint x="260.47000000000025" y="1274.5" as="sourcePoint" />
+            <mxPoint x="795" y="221" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-58" value="reduceGoodsByBookId" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="N8du5w29IZQsb6Iyptna-7" target="N8du5w29IZQsb6Iyptna-60">
+        <mxCell id="N8du5w29IZQsb6Iyptna-80" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="N8du5w29IZQsb6Iyptna-78" parent="1" target="N8du5w29IZQsb6Iyptna-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="646.47" y="1118" as="sourcePoint" />
+            <mxPoint x="795" y="297" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-59" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="N8du5w29IZQsb6Iyptna-60" target="N8du5w29IZQsb6Iyptna-7">
+        <mxCell id="N8du5w29IZQsb6Iyptna-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="430" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-84" value="listBookTypes()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.152;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="N8du5w29IZQsb6Iyptna-83" parent="1" source="N8du5w29IZQsb6Iyptna-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="646.47" y="1194" as="targetPoint" />
+            <mxPoint x="642" y="440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="1">
-          <mxGeometry x="716.47" y="1030" width="10" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="N8du5w29IZQsb6Iyptna-10" value="访问我的购物车" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1">
+        <mxCell id="N8du5w29IZQsb6Iyptna-85" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="N8du5w29IZQsb6Iyptna-83" parent="1" target="N8du5w29IZQsb6Iyptna-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="95" y="230" as="sourcePoint" />
-            <mxPoint x="262.8299999999999" y="230.00000000000045" as="targetPoint" />
+            <mxPoint x="642" y="516" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-87" value="getAllTypes()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="N8du5w29IZQsb6Iyptna-86" parent="1" source="N8du5w29IZQsb6Iyptna-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="985" y="455" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-88" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="N8du5w29IZQsb6Iyptna-86" parent="1" target="N8du5w29IZQsb6Iyptna-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="985" y="531" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-89" value="return JSON" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="800" as="targetPoint" />
+            <mxPoint x="515" y="800" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-90" value="deleteBookTypeById()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="N8du5w29IZQsb6Iyptna-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-91" value="显示图书分类列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="840" as="targetPoint" />
+            <mxPoint x="319.5" y="840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-93" value="删除图书品类" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="660" as="sourcePoint" />
+            <mxPoint x="315" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-94" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="717" y="680" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-95" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="505" y="670" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-96" value="deleteBookTypeById()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.152;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="N8du5w29IZQsb6Iyptna-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514.5" y="698.9200000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-97" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="N8du5w29IZQsb6Iyptna-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514.5" y="784.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-98" value="deleteBookTypeById()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="N8du5w29IZQsb6Iyptna-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="721.5" y="713.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8du5w29IZQsb6Iyptna-99" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="N8du5w29IZQsb6Iyptna-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="721.5" y="771.9375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="opOx6tLjc1TxBh_9LfGu" name="第 2 页">
+    <mxGraphModel dx="1210" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-0" />
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-1" parent="E0LlO-R9Pon4EKqQ-i_4-0" />
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-2" value=":BookController" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-1">
+          <mxGeometry x="340" y="77.5" width="100" height="712.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cBYHDGHBFSHIfsD4qveq-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-2">
+          <mxGeometry x="40" y="145.5" width="10" height="154.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-2">
+          <mxGeometry x="45" y="569.1" width="10" height="89.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-26" value="updateBook()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-2" target="Lvx4TsLdKNyL8OF0qniT-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="599.6" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-27" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-2" source="Lvx4TsLdKNyL8OF0qniT-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="624.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-2">
+          <mxGeometry x="45" y="369.5" width="10" height="89.5" as="geometry" />
+        </mxCell>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-23" value=":BookSerice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-1">
+          <mxGeometry x="480" y="77.5" width="100" height="712.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cBYHDGHBFSHIfsD4qveq-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-23">
+          <mxGeometry x="45" y="161.5" width="10" height="118.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-23">
+          <mxGeometry x="45" y="585.85" width="10" height="63.5" as="geometry" />
+        </mxCell>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-19" value="&lt;span style=&quot;font-weight: normal&quot;&gt;：后台管理页面&lt;/span&gt;" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontStyle=1" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-1">
+          <mxGeometry x="208" y="82.5" width="70" height="707.5" as="geometry" />
+        </mxCell>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-19">
+          <mxGeometry x="30" y="100" width="10" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-1">
+          <mxGeometry x="50" y="80" width="90" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-4" value="&lt;b&gt;：书店管理员&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-3">
+          <mxGeometry x="-10" y="40" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-13" value="图书列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1" source="E0LlO-R9Pon4EKqQ-i_4-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="385" as="targetPoint" />
+            <mxPoint x="314.5000000000002" y="385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-14" value=":BookTypeMapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-1">
+          <mxGeometry x="710" y="77.5" width="100" height="702.5" as="geometry" />
+        </mxCell>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-14">
+          <mxGeometry x="45" y="222" width="10" height="26.25" as="geometry" />
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-8" value="addBook()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-14" target="Lvx4TsLdKNyL8OF0qniT-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-470" y="369.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-10" value="addBook()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-14" target="Lvx4TsLdKNyL8OF0qniT-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-320" y="380.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-18" value="查看图书品类列表" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1" target="E0LlO-R9Pon4EKqQ-i_4-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="205" as="sourcePoint" />
+            <mxPoint x="310" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-27" value="BookMapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-1">
+          <mxGeometry x="600" y="78.75" width="100" height="711.25" as="geometry" />
+        </mxCell>
+        <mxCell id="cBYHDGHBFSHIfsD4qveq-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-27">
+          <mxGeometry x="45" y="171.25" width="10" height="28.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-27">
+          <mxGeometry x="45" y="598.23" width="10" height="28.75" as="geometry" />
+        </mxCell>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-37" value="getTypesByIds()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1" source="E0LlO-R9Pon4EKqQ-i_4-23" target="E0LlO-R9Pon4EKqQ-i_4-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716.0714285714284" y="258.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0LlO-R9Pon4EKqQ-i_4-38" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1" source="E0LlO-R9Pon4EKqQ-i_4-15" target="E0LlO-R9Pon4EKqQ-i_4-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716.0714285714284" y="316.9375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBYHDGHBFSHIfsD4qveq-1" value="listBooks()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="cBYHDGHBFSHIfsD4qveq-0" parent="E0LlO-R9Pon4EKqQ-i_4-1" source="E0LlO-R9Pon4EKqQ-i_4-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="223" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBYHDGHBFSHIfsD4qveq-2" value="return JSON" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="cBYHDGHBFSHIfsD4qveq-0" parent="E0LlO-R9Pon4EKqQ-i_4-1" target="E0LlO-R9Pon4EKqQ-i_4-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="299" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBYHDGHBFSHIfsD4qveq-4" value="listBooks()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="cBYHDGHBFSHIfsD4qveq-3" parent="E0LlO-R9Pon4EKqQ-i_4-1" source="E0LlO-R9Pon4EKqQ-i_4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="239" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBYHDGHBFSHIfsD4qveq-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="cBYHDGHBFSHIfsD4qveq-3" parent="E0LlO-R9Pon4EKqQ-i_4-1" target="E0LlO-R9Pon4EKqQ-i_4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBYHDGHBFSHIfsD4qveq-7" value="listBooks()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="cBYHDGHBFSHIfsD4qveq-6" parent="E0LlO-R9Pon4EKqQ-i_4-1" source="E0LlO-R9Pon4EKqQ-i_4-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBYHDGHBFSHIfsD4qveq-8" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="cBYHDGHBFSHIfsD4qveq-6" parent="E0LlO-R9Pon4EKqQ-i_4-1" target="E0LlO-R9Pon4EKqQ-i_4-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-23" value="return JSON" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1" source="Lvx4TsLdKNyL8OF0qniT-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242.5" y="731.6250000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-15" value="显示修改结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="744.6" as="targetPoint" />
+            <mxPoint x="242.5" y="744.6" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-24" value="updateBook()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1" target="Lvx4TsLdKNyL8OF0qniT-18" source="Lvx4TsLdKNyL8OF0qniT-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359.5" y="664.1" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-25" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1" source="Lvx4TsLdKNyL8OF0qniT-18" target="Lvx4TsLdKNyL8OF0qniT-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359.5" y="776.6749999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-17" value="修改图书品类列表" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.052;entryY=0.796;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="94.5" y="630.0000000000001" as="sourcePoint" />
+            <mxPoint x="238.51999999999998" y="630.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-22" value="updateBook()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=-0.073;exitY=0.823;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1" target="Lvx4TsLdKNyL8OF0qniT-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237.26999999999998" y="647.5499999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-1">
+          <mxGeometry x="640" y="469" width="10" height="28.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E0LlO-R9Pon4EKqQ-i_4-1">
+          <mxGeometry x="520" y="459" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-12" value="addBook()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1" target="Lvx4TsLdKNyL8OF0qniT-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="469" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-13" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1" source="Lvx4TsLdKNyL8OF0qniT-5" target="Lvx4TsLdKNyL8OF0qniT-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="429.5" y="496.3125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-11" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1" source="Lvx4TsLdKNyL8OF0qniT-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.5" y="516" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-9" value="return JSON" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1" source="Lvx4TsLdKNyL8OF0qniT-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242.5" y="532.0250000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-3" value="新增图书" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="94.5" y="429" as="sourcePoint" />
+            <mxPoint x="237.5" y="429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvx4TsLdKNyL8OF0qniT-1" value="显示新增结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="E0LlO-R9Pon4EKqQ-i_4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="559" as="targetPoint" />
+            <mxPoint x="242.5" y="559" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
