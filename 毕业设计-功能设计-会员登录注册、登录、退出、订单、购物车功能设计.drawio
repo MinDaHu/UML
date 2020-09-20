@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-20T14:18:02.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="KZgBMM_CjfncbY_q_8__" version="13.6.10" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-20T14:21:02.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="AgKn35YNESc0-MYoVknu" version="13.6.10" type="github" pages="3">
   <diagram id="ocLCJiYPgY4BP7__raCj" name="第 1 页">
-    <mxGraphModel dx="1210" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1210" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -298,7 +298,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_a_JBXWJqnzDuPk0JHkG" name="第 2 页">
-    <mxGraphModel dx="1424" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="AvkvTaTciSkn1FwxjkwS-0" />
         <mxCell id="AvkvTaTciSkn1FwxjkwS-1" parent="AvkvTaTciSkn1FwxjkwS-0" />
@@ -344,7 +344,7 @@
         <mxCell id="6qNoIg5RYOoD2JHT0gBt-7" value="&lt;b&gt;：消费者&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6qNoIg5RYOoD2JHT0gBt-6" vertex="1">
           <mxGeometry x="-10" y="40" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6qNoIg5RYOoD2JHT0gBt-9" value="&lt;span&gt;：书店首页&lt;/span&gt;" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontStyle=1" parent="AvkvTaTciSkn1FwxjkwS-1" vertex="1">
+        <mxCell id="6qNoIg5RYOoD2JHT0gBt-9" value="&lt;span&gt;：我的订单页面&lt;/span&gt;" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontStyle=1" parent="AvkvTaTciSkn1FwxjkwS-1" vertex="1">
           <mxGeometry x="230" y="90" width="70" height="990" as="geometry" />
         </mxCell>
         <mxCell id="6qNoIg5RYOoD2JHT0gBt-18" value=":OrderController" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="AvkvTaTciSkn1FwxjkwS-1" vertex="1">
@@ -566,7 +566,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dqMWrskoTby6WZQevs_h" name="第 3 页">
-    <mxGraphModel dx="8140" dy="2588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4308" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="KJVsj-9sGR0pSEC6vd4A-0" />
         <mxCell id="KJVsj-9sGR0pSEC6vd4A-1" parent="KJVsj-9sGR0pSEC6vd4A-0" />
@@ -591,7 +591,7 @@
         <mxCell id="FkK1sKoqfm99LZQ_u48Y-15" value="&lt;b&gt;：消费者&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FkK1sKoqfm99LZQ_u48Y-14">
           <mxGeometry x="-10" y="40" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FkK1sKoqfm99LZQ_u48Y-16" value="&lt;span&gt;：书店首页&lt;/span&gt;" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontStyle=1" vertex="1" parent="KJVsj-9sGR0pSEC6vd4A-1">
+        <mxCell id="FkK1sKoqfm99LZQ_u48Y-16" value="&lt;span&gt;：我的购物车页面&lt;/span&gt;" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontStyle=1" vertex="1" parent="KJVsj-9sGR0pSEC6vd4A-1">
           <mxGeometry x="230" y="90" width="70" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="FkK1sKoqfm99LZQ_u48Y-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="FkK1sKoqfm99LZQ_u48Y-16">
