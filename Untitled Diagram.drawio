@@ -1,185 +1,287 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T11:58:28.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="xqSfw1OhBB_iA6tqtHRF" version="13.8.8" type="github">
-  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1210" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2021-01-25T14:07:42.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="aNVwNakgBVwbd6tiupn3" version="13.8.8" type="github" pages="4">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="批量恢复合同额度">
+    <mxGraphModel dx="1008" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yRdWivfKs0KMSXjoEMQT-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="155" y="270" width="30" height="30" as="geometry" />
+          <mxGeometry x="145" y="30" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yRdWivfKs0KMSXjoEMQT-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="yRdWivfKs0KMSXjoEMQT-1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="360" as="targetPoint" />
+            <mxPoint x="160" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yRdWivfKs0KMSXjoEMQT-3" value="生成额度恢复流水" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="110" y="360" width="120" height="40" as="geometry" />
+          <mxGeometry x="100" y="120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yRdWivfKs0KMSXjoEMQT-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="yRdWivfKs0KMSXjoEMQT-3" parent="1" target="yRdWivfKs0KMSXjoEMQT-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="460" as="targetPoint" />
+            <mxPoint x="160" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yRdWivfKs0KMSXjoEMQT-17" value="用信恢复额度校验" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="110" y="450" width="120" height="40" as="geometry" />
+          <mxGeometry x="100" y="210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yRdWivfKs0KMSXjoEMQT-19" value="校验通过" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="130" y="540" width="80" height="40" as="geometry" />
+          <mxGeometry x="120" y="300" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yRdWivfKs0KMSXjoEMQT-20" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="yRdWivfKs0KMSXjoEMQT-19" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="270" y="560" as="targetPoint" />
+            <mxPoint x="260" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yRdWivfKs0KMSXjoEMQT-21" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="yRdWivfKs0KMSXjoEMQT-19" parent="1" target="yRdWivfKs0KMSXjoEMQT-23">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="170" y="715" as="targetPoint" />
+            <mxPoint x="160" y="475" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yRdWivfKs0KMSXjoEMQT-22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yRdWivfKs0KMSXjoEMQT-17" target="yRdWivfKs0KMSXjoEMQT-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="460" as="targetPoint" />
-            <mxPoint x="180" y="410" as="sourcePoint" />
+            <mxPoint x="170" y="220" as="targetPoint" />
+            <mxPoint x="170" y="170" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="170" y="540" />
-              <mxPoint x="170" y="540" />
+              <mxPoint x="160" y="300" />
+              <mxPoint x="160" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yRdWivfKs0KMSXjoEMQT-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yRdWivfKs0KMSXjoEMQT-23" target="yRdWivfKs0KMSXjoEMQT-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="735" as="sourcePoint" />
+            <mxPoint x="220" y="495" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yRdWivfKs0KMSXjoEMQT-23" value="恢复用信额度" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="110" y="650" width="120" height="40" as="geometry" />
+          <mxGeometry x="100" y="410" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yRdWivfKs0KMSXjoEMQT-24" value="记录日终批量异常登记表" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="270" y="540" width="120" height="40" as="geometry" />
+          <mxGeometry x="260" y="300" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yRdWivfKs0KMSXjoEMQT-37" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="340" y="655" width="30" height="30" as="geometry" />
+          <mxGeometry x="330" y="415" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-41" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="135" y="780" width="30" height="30" as="geometry" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xyRmY5XvDVnbJrTCTuJs" name="批量恢复合同额度-生成额度恢复流水">
+    <mxGraphModel dx="1008" dy="5220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="18LWOPk0EnLTKRg_73FT-0" />
+        <mxCell id="18LWOPk0EnLTKRg_73FT-1" parent="18LWOPk0EnLTKRg_73FT-0" />
+        <mxCell id="2n681JwMofqFJBINY2Oz-1" value="生成额度恢复流水" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFC0;" vertex="1" parent="18LWOPk0EnLTKRg_73FT-1">
+          <mxGeometry x="150" y="-490" width="860" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1" source="yRdWivfKs0KMSXjoEMQT-41">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="870" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="2n681JwMofqFJBINY2Oz-2" value="调度系统" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;strokeColor=#FF0000;fillColor=#FFFFC0;" vertex="1" parent="18LWOPk0EnLTKRg_73FT-1">
+          <mxGeometry x="160" y="-380" width="40" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-43" value="查询借据还款流水" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="90" y="870" width="120" height="40" as="geometry" />
+        <mxCell id="2n681JwMofqFJBINY2Oz-3" value="还款流水表（核算子系统）&lt;br&gt;&lt;b&gt;:Table&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=80;strokeColor=#FF0000;fillColor=#FFFFC0;align=center;" vertex="1" parent="18LWOPk0EnLTKRg_73FT-1">
+          <mxGeometry x="360" y="-420" width="150" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-44" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yRdWivfKs0KMSXjoEMQT-43" target="yRdWivfKs0KMSXjoEMQT-45">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="970" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="2n681JwMofqFJBINY2Oz-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FF0000;" vertex="1" parent="2n681JwMofqFJBINY2Oz-3">
+          <mxGeometry x="70" y="100" width="10" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-45" value="生成额度恢复流水" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="90" y="960" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-49" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yRdWivfKs0KMSXjoEMQT-45" target="yRdWivfKs0KMSXjoEMQT-53">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="1050" as="targetPoint" />
-            <mxPoint x="160" y="920" as="sourcePoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-53" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="135" y="1050" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-54" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="465" y="770" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-55" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1" source="yRdWivfKs0KMSXjoEMQT-54">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="860" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-56" value="查询借据还款流水" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="420" y="860" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-57" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yRdWivfKs0KMSXjoEMQT-56" target="yRdWivfKs0KMSXjoEMQT-58">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="960" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-58" value="生成额度恢复流水" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="420" y="950" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-59" value="校验通过" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1040" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-60" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1" source="yRdWivfKs0KMSXjoEMQT-59">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="580" y="1060" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-61" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yRdWivfKs0KMSXjoEMQT-59" target="yRdWivfKs0KMSXjoEMQT-64">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="480" y="1215" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-62" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yRdWivfKs0KMSXjoEMQT-58" target="yRdWivfKs0KMSXjoEMQT-59">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="960" as="targetPoint" />
-            <mxPoint x="490" y="910" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="480" y="1040" />
-              <mxPoint x="480" y="1040" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yRdWivfKs0KMSXjoEMQT-64" target="yRdWivfKs0KMSXjoEMQT-66">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="540" y="1235" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-64" value="恢复用信额度" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1150" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-65" value="记录日终批量异常登记表" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="580" y="1040" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-66" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1155" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-67" value="定时调度系统" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1360" width="40" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-68" value="还款流水表（核算子系统）:Table" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=80;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1320" width="150" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="yRdWivfKs0KMSXjoEMQT-68">
-          <mxGeometry x="70" y="100" width="10" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-70" value="select&lt;br&gt;查询当日还款流水数据（&lt;br&gt;过滤已存在于额度流水表中&lt;br&gt;的还款流水）" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;strokeColor=#FF0000;" edge="1" target="yRdWivfKs0KMSXjoEMQT-69" parent="1">
-          <mxGeometry x="-0.0526" y="-22" relative="1" as="geometry">
-            <mxPoint x="99.99666666666651" y="1447.9999999999998" as="sourcePoint" />
-            <mxPoint x="285.33" y="1447.9999999999998" as="targetPoint" />
+        <mxCell id="2n681JwMofqFJBINY2Oz-5" value="select①&lt;br&gt;查询批量日还款流水数据&lt;br&gt;过滤（剔除）以下数据：&lt;br&gt;①该批量日下已存在于额度&lt;br&gt;流水表中的 还款流水&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;②合同为循环额度？？&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;strokeColor=#FF0000;" edge="1" parent="18LWOPk0EnLTKRg_73FT-1" target="2n681JwMofqFJBINY2Oz-4">
+          <mxGeometry x="-0.04" y="-52" relative="1" as="geometry">
+            <mxPoint x="179.99666666666644" y="-292.0000000000002" as="sourcePoint" />
+            <mxPoint x="365.33" y="-292.0000000000002" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-71" value="额度流水表（用信子系统）:Table" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=80;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1320" width="150" height="460" as="geometry" />
+        <mxCell id="2n681JwMofqFJBINY2Oz-6" value="额度流水表（用信子系统）:&lt;b&gt;Table&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=80;strokeColor=#FF0000;fillColor=#FFFFC0;" vertex="1" parent="18LWOPk0EnLTKRg_73FT-1">
+          <mxGeometry x="600" y="-420" width="150" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="yRdWivfKs0KMSXjoEMQT-71">
-          <mxGeometry x="70" y="100" width="10" height="160" as="geometry" />
+        <mxCell id="2n681JwMofqFJBINY2Oz-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FF0000;" vertex="1" parent="2n681JwMofqFJBINY2Oz-6">
+          <mxGeometry x="70" y="100" width="10" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="yRdWivfKs0KMSXjoEMQT-69" target="yRdWivfKs0KMSXjoEMQT-72">
+        <mxCell id="2n681JwMofqFJBINY2Oz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;exitX=1.264;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.028;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="18LWOPk0EnLTKRg_73FT-1" source="2n681JwMofqFJBINY2Oz-4" target="2n681JwMofqFJBINY2Oz-7">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="350" y="1462" />
-              <mxPoint x="350" y="1462" />
-            </Array>
+            <Array as="points" />
+            <mxPoint x="450" y="-278" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yRdWivfKs0KMSXjoEMQT-74" value="insert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yRdWivfKs0KMSXjoEMQT-73">
+        <mxCell id="2n681JwMofqFJBINY2Oz-9" value="insert&lt;br&gt;根据 select① 查询到的&lt;br&gt;还款流水数据生成额度流水，&lt;br&gt;插入额度流水表中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2n681JwMofqFJBINY2Oz-8">
           <mxGeometry x="-0.2323" relative="1" as="geometry">
+            <mxPoint x="29.03" y="8.590000000000003" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2n681JwMofqFJBINY2Oz-10" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FF0000;" edge="1" parent="18LWOPk0EnLTKRg_73FT-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="-130.00000000000023" as="targetPoint" />
+            <mxPoint x="669.9999999999998" y="-130.00000000000023" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2n681JwMofqFJBINY2Oz-11" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;strokeColor=#FF0000;" edge="1" parent="18LWOPk0EnLTKRg_73FT-1" target="2n681JwMofqFJBINY2Oz-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="-170" as="targetPoint" />
+            <mxPoint x="430" y="-110.00000000000023" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="320" y="-110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2n681JwMofqFJBINY2Oz-12" value="额度流水表（用信子系统）&lt;span style=&quot;text-align: left&quot;&gt;&lt;br&gt;合同表（用信子系统）&lt;/span&gt;:&lt;b&gt;Table&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=80;strokeColor=#FF0000;fillColor=#FFFFC0;" vertex="1" parent="18LWOPk0EnLTKRg_73FT-1">
+          <mxGeometry x="830" y="-420" width="150" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="2n681JwMofqFJBINY2Oz-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FF0000;" vertex="1" parent="2n681JwMofqFJBINY2Oz-12">
+          <mxGeometry x="70" y="110" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2n681JwMofqFJBINY2Oz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;exitX=1.264;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.278;entryY=0.396;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="18LWOPk0EnLTKRg_73FT-1" target="2n681JwMofqFJBINY2Oz-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="680" y="-252.1000000000006" as="sourcePoint" />
+            <mxPoint x="907.08" y="-250.02999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2n681JwMofqFJBINY2Oz-15" value="update&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;额度流水表&lt;/span&gt;&lt;br&gt;根据 合同号查询合同信息&lt;br&gt;补录至额度流水表中&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;若需控制合同为循环额度则将&lt;br&gt;非循环的合同更新为删除&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2n681JwMofqFJBINY2Oz-14">
+          <mxGeometry x="-0.2323" relative="1" as="geometry">
+            <mxPoint x="20.83" y="2.0900000000000034" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2n681JwMofqFJBINY2Oz-16" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FF0000;" edge="1" parent="18LWOPk0EnLTKRg_73FT-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="-180.00000000000023" as="targetPoint" />
+            <mxPoint x="899.9999999999995" y="-180.00000000000023" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7Adw0FJDL6yipUkUK5SN" name="批量恢复合同额度-合同额度恢复校验">
+    <mxGraphModel dx="1210" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="wncZzCHNNkee-S3F2x9g-0" />
+        <mxCell id="wncZzCHNNkee-S3F2x9g-1" parent="wncZzCHNNkee-S3F2x9g-0" />
+        <mxCell id="ZLKY3PFH5jvtw0V8sNmF-0" value="用信恢复额度校验" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFC0;" vertex="1" parent="wncZzCHNNkee-S3F2x9g-1">
+          <mxGeometry x="100" y="920" width="1040" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLKY3PFH5jvtw0V8sNmF-1" value="调度系统" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;strokeColor=#FF0000;fillColor=#FFFFC0;" vertex="1" parent="wncZzCHNNkee-S3F2x9g-1">
+          <mxGeometry x="120" y="1040" width="40" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLKY3PFH5jvtw0V8sNmF-2" value="&lt;span style=&quot;text-align: center&quot;&gt;额度流水表（用信子系统）&lt;br&gt;&lt;/span&gt;&lt;span&gt;Sum(还款金额) 还款总额&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;Group By 合同号&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;Left Join&amp;nbsp;&lt;br&gt;合同表（用信子系统）&lt;br&gt;&lt;b&gt;:Table&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=100;strokeColor=#FF0000;fillColor=#FFFFC0;align=left;" vertex="1" parent="wncZzCHNNkee-S3F2x9g-1">
+          <mxGeometry x="392" y="970" width="150" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLKY3PFH5jvtw0V8sNmF-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FF0000;" vertex="1" parent="ZLKY3PFH5jvtw0V8sNmF-2">
+          <mxGeometry x="70" y="130" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLKY3PFH5jvtw0V8sNmF-4" value="select①&lt;br&gt;查询批量日下还款总额&amp;gt;合同已用额度的&lt;br&gt;额度流水数据" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;strokeColor=#FF0000;" edge="1" parent="wncZzCHNNkee-S3F2x9g-1" target="ZLKY3PFH5jvtw0V8sNmF-3">
+          <mxGeometry x="-0.04" y="-37" relative="1" as="geometry">
+            <mxPoint x="139.99666666666644" y="1127.9999999999998" as="sourcePoint" />
+            <mxPoint x="325.33" y="1127.9999999999998" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLKY3PFH5jvtw0V8sNmF-5" value="额度流水表（用信子系统）:Table" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=100;strokeColor=#FF0000;fillColor=#FFFFC0;" vertex="1" parent="wncZzCHNNkee-S3F2x9g-1">
+          <mxGeometry x="632" y="970" width="150" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLKY3PFH5jvtw0V8sNmF-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FF0000;" vertex="1" parent="ZLKY3PFH5jvtw0V8sNmF-5">
+          <mxGeometry x="70" y="130" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLKY3PFH5jvtw0V8sNmF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="wncZzCHNNkee-S3F2x9g-1" target="ZLKY3PFH5jvtw0V8sNmF-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462" y="1142" />
+              <mxPoint x="462" y="1142" />
+            </Array>
+            <mxPoint x="482" y="1142" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLKY3PFH5jvtw0V8sNmF-8" value="update&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;根据select①结果集 更新额度流水表 {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;状态：删除；备注：“删除：批量恢复&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;合同额度，额度校验恢复额大于已用，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;置为删除”}&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZLKY3PFH5jvtw0V8sNmF-7">
+          <mxGeometry x="-0.2323" relative="1" as="geometry">
+            <mxPoint x="40" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLKY3PFH5jvtw0V8sNmF-9" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FF0000;" edge="1" parent="wncZzCHNNkee-S3F2x9g-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="472" y="1239" as="targetPoint" />
+            <mxPoint x="701.9999999999998" y="1239" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLKY3PFH5jvtw0V8sNmF-10" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.027;exitY=0.875;strokeColor=#FF0000;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wncZzCHNNkee-S3F2x9g-1" target="ZLKY3PFH5jvtw0V8sNmF-1" source="ZLKY3PFH5jvtw0V8sNmF-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1250" as="targetPoint" />
+            <mxPoint x="390" y="1249.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY6gG4qDbpvRkEcP9nix-2" value="日终批量异常登记表（用信子系统）:Table" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=100;strokeColor=#FF0000;fillColor=#FFFFC0;" vertex="1" parent="wncZzCHNNkee-S3F2x9g-1">
+          <mxGeometry x="920" y="970" width="150" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="EY6gG4qDbpvRkEcP9nix-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FF0000;" vertex="1" parent="EY6gG4qDbpvRkEcP9nix-2">
+          <mxGeometry x="70" y="150" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EY6gG4qDbpvRkEcP9nix-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;exitX=1.064;exitY=0.348;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.34;entryY=0.273;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wncZzCHNNkee-S3F2x9g-1" source="ZLKY3PFH5jvtw0V8sNmF-6" target="EY6gG4qDbpvRkEcP9nix-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="740" y="1200" as="sourcePoint" />
+            <mxPoint x="960" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY6gG4qDbpvRkEcP9nix-6" value="insert&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;将select①结果集 插入到异常等级表中&lt;/span&gt;&lt;/div&gt;&lt;div&gt;过滤（剔除）以下数据：&lt;br&gt;①该批量日下已存在于异常登记表中&lt;br&gt;的流水（业务编号过滤）&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EY6gG4qDbpvRkEcP9nix-5">
+          <mxGeometry x="-0.2323" relative="1" as="geometry">
+            <mxPoint x="30" y="-12.61" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY6gG4qDbpvRkEcP9nix-7" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FF0000;" edge="1" parent="wncZzCHNNkee-S3F2x9g-1" target="ZLKY3PFH5jvtw0V8sNmF-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1210" as="targetPoint" />
+            <mxPoint x="989.9999999999998" y="1210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UXAocYFsjJGMXVxNm-kf" name="批量恢复合同额度-恢复合同额度">
+    <mxGraphModel dx="834" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="aZlp8DUG-HIahYnzwNrB-0" />
+        <mxCell id="aZlp8DUG-HIahYnzwNrB-1" parent="aZlp8DUG-HIahYnzwNrB-0" />
+        <mxCell id="zTA8YSKt5dEWLlG9IyEC-0" value="恢复合同额度" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFC0;" vertex="1" parent="aZlp8DUG-HIahYnzwNrB-1">
+          <mxGeometry x="80" y="1180" width="750" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="zTA8YSKt5dEWLlG9IyEC-1" value="调度系统" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;strokeColor=#FF0000;fillColor=#FFFFC0;" vertex="1" parent="aZlp8DUG-HIahYnzwNrB-1">
+          <mxGeometry x="94" y="1230" width="40" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="zTA8YSKt5dEWLlG9IyEC-2" value="合同表（用信子系统）&lt;br&gt;&lt;b&gt;:Table&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=80;strokeColor=#FF0000;fillColor=#FFFFC0;align=left;" vertex="1" parent="aZlp8DUG-HIahYnzwNrB-1">
+          <mxGeometry x="330" y="1190" width="150" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="zTA8YSKt5dEWLlG9IyEC-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FF0000;" vertex="1" parent="zTA8YSKt5dEWLlG9IyEC-2">
+          <mxGeometry x="70" y="100" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="zTA8YSKt5dEWLlG9IyEC-4" value="update&lt;br&gt;查询批量日下额度流水表数据&lt;br&gt;并更新合同表可用额度、已用额度、&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;额度恢复批量日期&lt;br&gt;&lt;/font&gt;过滤以下数据：&lt;br&gt;合同表：&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;额度恢复批量日期为批量日的合同&lt;br&gt;&lt;/span&gt;流水表：创建人：sys、日期：批量日、&lt;br&gt;状态：未处理&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;此处考虑因无法保证事务的一致性，&lt;br&gt;采用以下方案：&lt;br&gt;①为合同表增加额度恢复跑批日&lt;br&gt;②采用程序方案处理&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;strokeColor=#FF0000;align=left;exitX=0.481;exitY=0.215;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="aZlp8DUG-HIahYnzwNrB-1" target="zTA8YSKt5dEWLlG9IyEC-3" source="zTA8YSKt5dEWLlG9IyEC-1">
+          <mxGeometry x="-0.8134" y="-142" relative="1" as="geometry">
+            <mxPoint x="149.99666666666644" y="1317.9999999999998" as="sourcePoint" />
+            <mxPoint x="335.33" y="1317.9999999999998" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTA8YSKt5dEWLlG9IyEC-5" value="额度流水表（用信子系统）:Table" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=80;strokeColor=#FF0000;fillColor=#FFFFC0;" vertex="1" parent="aZlp8DUG-HIahYnzwNrB-1">
+          <mxGeometry x="630" y="1190" width="150" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="zTA8YSKt5dEWLlG9IyEC-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#FF0000;" vertex="1" parent="zTA8YSKt5dEWLlG9IyEC-5">
+          <mxGeometry x="70" y="100" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zTA8YSKt5dEWLlG9IyEC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="aZlp8DUG-HIahYnzwNrB-1" target="zTA8YSKt5dEWLlG9IyEC-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="408" y="1343" as="sourcePoint" />
+            <mxPoint x="692.5" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTA8YSKt5dEWLlG9IyEC-8" value="update&lt;br&gt;查询&amp;nbsp;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;额度恢复批量日期为批量日的&lt;br&gt;合同数据，用其 更新额度流水表状态为 &lt;br&gt;已生效。&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;更新条件：（创建人：sys、日期：批量日、&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;状态：未处理&lt;/span&gt;&lt;span style=&quot;&quot;&gt;）&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zTA8YSKt5dEWLlG9IyEC-7">
+          <mxGeometry x="-0.2323" relative="1" as="geometry">
+            <mxPoint x="-101.44999999999999" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTA8YSKt5dEWLlG9IyEC-9" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;strokeColor=#FF0000;" edge="1" parent="aZlp8DUG-HIahYnzwNrB-1" source="zTA8YSKt5dEWLlG9IyEC-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1429" as="targetPoint" />
+            <mxPoint x="639.9999999999998" y="1429" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTA8YSKt5dEWLlG9IyEC-10" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#FF0000;" edge="1" parent="aZlp8DUG-HIahYnzwNrB-1" target="zTA8YSKt5dEWLlG9IyEC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="149.5" y="1493" as="targetPoint" />
+            <mxPoint x="400" y="1492.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
