@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T14:48:00.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="4MP92lipu9Y4K-dhd_qp" version="13.8.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-03T14:51:41.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="vAbvdW9cXaM6RSo3Bjox" version="13.8.8" type="github" pages="3">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1190" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -172,7 +172,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5hDk-sYZb2xHbQVutvn_" name="责任认定、复议、移交">
-    <mxGraphModel dx="1400" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="821" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="NZYgD2dp3zFgV_5Q-sWc-0" />
         <mxCell id="NZYgD2dp3zFgV_5Q-sWc-1" parent="NZYgD2dp3zFgV_5Q-sWc-0" />
@@ -266,7 +266,7 @@
         <mxCell id="NZYgD2dp3zFgV_5Q-sWc-38" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="NZYgD2dp3zFgV_5Q-sWc-10" source="NZYgD2dp3zFgV_5Q-sWc-36" target="NZYgD2dp3zFgV_5Q-sWc-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NZYgD2dp3zFgV_5Q-sWc-41" value="发起移交" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-10">
+        <mxCell id="NZYgD2dp3zFgV_5Q-sWc-41" value="选择责任认定过的不良合同" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-10">
           <mxGeometry x="55" y="730" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NZYgD2dp3zFgV_5Q-sWc-42" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="NZYgD2dp3zFgV_5Q-sWc-10" source="NZYgD2dp3zFgV_5Q-sWc-17" target="NZYgD2dp3zFgV_5Q-sWc-41">
@@ -275,8 +275,10 @@
         <mxCell id="NZYgD2dp3zFgV_5Q-sWc-44" value="审批完成" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-10">
           <mxGeometry x="55" y="860" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NZYgD2dp3zFgV_5Q-sWc-45" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="NZYgD2dp3zFgV_5Q-sWc-10" source="NZYgD2dp3zFgV_5Q-sWc-41" target="NZYgD2dp3zFgV_5Q-sWc-44">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NZYgD2dp3zFgV_5Q-sWc-45" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="NZYgD2dp3zFgV_5Q-sWc-10" source="NZYgD2dp3zFgV_5Q-sWc-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="790" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NZYgD2dp3zFgV_5Q-sWc-46" value="转交保全部" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;align=left;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-10">
           <mxGeometry x="215" y="860" width="80" height="40" as="geometry" />
@@ -295,8 +297,14 @@
         <mxCell id="O4zpR60OLuuC2s84I-QT-2" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="NZYgD2dp3zFgV_5Q-sWc-10" source="O4zpR60OLuuC2s84I-QT-0" target="NZYgD2dp3zFgV_5Q-sWc-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O4zpR60OLuuC2s84I-QT-0" value="发起责任认定" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-10">
+        <mxCell id="O4zpR60OLuuC2s84I-QT-0" value="选择不良借据" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-10">
           <mxGeometry x="55" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O4zpR60OLuuC2s84I-QT-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="NZYgD2dp3zFgV_5Q-sWc-10" source="O4zpR60OLuuC2s84I-QT-3" target="NZYgD2dp3zFgV_5Q-sWc-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4zpR60OLuuC2s84I-QT-3" value="发起移交" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-10">
+          <mxGeometry x="55" y="790" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NZYgD2dp3zFgV_5Q-sWc-51" value="用信子系统" style="swimlane;align=left;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-1">
           <mxGeometry x="630" y="130" width="390" height="1080" as="geometry" />
