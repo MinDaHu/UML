@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T14:26:11.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="hg9xUXda9p5FPM9DmI6J" version="13.8.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-03T14:29:50.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="WwYBpokN1sCwVWdhWhQo" version="13.8.8" type="github" pages="2">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1190" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -180,7 +180,7 @@
           <mxGeometry x="150" y="130" width="160" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="NZYgD2dp3zFgV_5Q-sWc-5" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-1">
-          <mxGeometry x="850" y="700" width="30" height="30" as="geometry" />
+          <mxGeometry x="1340" y="695" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NZYgD2dp3zFgV_5Q-sWc-6" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-1">
           <mxGeometry x="1025" y="240" width="30" height="30" as="geometry" />
@@ -215,6 +215,12 @@
         <mxCell id="NZYgD2dp3zFgV_5Q-sWc-28" value="&lt;b&gt;有责无则认定：&lt;/b&gt;参加表决人数需超过责任认定机构固定成员三分之二以上人员方为有效，表决意见须经参加表决的半数以上同意方可通过。对于免责认定，须经参加表决成员三分之二以上通过方为有效。" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-1">
           <mxGeometry x="1150" y="260" width="160" height="160" as="geometry" />
         </mxCell>
+        <mxCell id="NZYgD2dp3zFgV_5Q-sWc-34" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="NZYgD2dp3zFgV_5Q-sWc-1" source="NZYgD2dp3zFgV_5Q-sWc-29" target="NZYgD2dp3zFgV_5Q-sWc-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZYgD2dp3zFgV_5Q-sWc-35" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="NZYgD2dp3zFgV_5Q-sWc-1" source="NZYgD2dp3zFgV_5Q-sWc-29" target="NZYgD2dp3zFgV_5Q-sWc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NZYgD2dp3zFgV_5Q-sWc-29" value="下发不良责任认定通知书" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-1">
           <mxGeometry x="1140" y="600" width="120" height="40" as="geometry" />
         </mxCell>
@@ -224,6 +230,23 @@
             <mxPoint x="1180" y="540" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NZYgD2dp3zFgV_5Q-sWc-31" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;收到通知&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;书7日内" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;align=left;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-1">
+          <mxGeometry x="1160" y="690" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NZYgD2dp3zFgV_5Q-sWc-32" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="NZYgD2dp3zFgV_5Q-sWc-31" parent="NZYgD2dp3zFgV_5Q-sWc-1" target="NZYgD2dp3zFgV_5Q-sWc-5">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1320" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZYgD2dp3zFgV_5Q-sWc-33" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="NZYgD2dp3zFgV_5Q-sWc-31" parent="NZYgD2dp3zFgV_5Q-sWc-1" target="NZYgD2dp3zFgV_5Q-sWc-36">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="1200" y="790" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZYgD2dp3zFgV_5Q-sWc-36" value="发起复议" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="NZYgD2dp3zFgV_5Q-sWc-1">
+          <mxGeometry x="980" y="690" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
