@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T03:21:49.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="BW2a0wLgUSe2EfWfelLy" version="13.8.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-04T03:26:01.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="dKqC_c_o9vsghL7sPKrJ" version="13.8.8" type="github" pages="9">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1190" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -390,6 +390,19 @@
         </mxCell>
         <mxCell id="e32CWeTjCPnMRDW_3JVr-13" value="备案" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="e32CWeTjCPnMRDW_3JVr-1">
           <mxGeometry x="280" y="608" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oVFVM_o8gD8o_g3OvvT3-0" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="e32CWeTjCPnMRDW_3JVr-1" source="e32CWeTjCPnMRDW_3JVr-15" target="e32CWeTjCPnMRDW_3JVr-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="628" />
+              <mxPoint x="620" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oVFVM_o8gD8o_g3OvvT3-1" value="回表完成后可再次发起处置&lt;br&gt;（核销、转让、置换、减免等）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oVFVM_o8gD8o_g3OvvT3-0">
+          <mxGeometry x="-0.097" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e32CWeTjCPnMRDW_3JVr-15" value="回表（置换、核销）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="e32CWeTjCPnMRDW_3JVr-1">
           <mxGeometry x="440" y="608" width="120" height="40" as="geometry" />
@@ -1409,7 +1422,7 @@
             <mxPoint x="260" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SlxMXL9L9IlxuYJ34_cD-1" value="选择不良贷款" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="PlWrAS78PDnPvcXcePwU-1">
+        <mxCell id="SlxMXL9L9IlxuYJ34_cD-1" value="选择不良贷款处置过的救助资金置换" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="PlWrAS78PDnPvcXcePwU-1">
           <mxGeometry x="200" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SlxMXL9L9IlxuYJ34_cD-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="PlWrAS78PDnPvcXcePwU-1" source="SlxMXL9L9IlxuYJ34_cD-1">
@@ -1452,18 +1465,6 @@
         </mxCell>
         <mxCell id="SlxMXL9L9IlxuYJ34_cD-10" value="确认处理" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="PlWrAS78PDnPvcXcePwU-1">
           <mxGeometry x="205" y="640" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SlxMXL9L9IlxuYJ34_cD-11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="PlWrAS78PDnPvcXcePwU-1" source="SlxMXL9L9IlxuYJ34_cD-13" target="SlxMXL9L9IlxuYJ34_cD-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="445" y="270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SlxMXL9L9IlxuYJ34_cD-12" value="重新发起减免" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SlxMXL9L9IlxuYJ34_cD-11">
-          <mxGeometry x="-0.5087" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="SlxMXL9L9IlxuYJ34_cD-13" value="业务失效" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="PlWrAS78PDnPvcXcePwU-1">
           <mxGeometry x="385" y="440" width="120" height="40" as="geometry" />
