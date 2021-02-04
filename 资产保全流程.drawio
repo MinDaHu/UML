@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T03:47:43.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="B1zIc4O8uQpGANJsdqPt" version="13.8.8" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-02-04T07:59:53.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="szUzRuFgugw9UEN_vb16" version="13.8.8" type="github" pages="12">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1190" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1724,7 +1724,7 @@
             <mxPoint x="260" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xvyZv3gFTRO0YD9s6IlB-4" value="选择不良贷款处置过的非救助资金置换" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="9btyKKKbJC0oI43shrb9-1">
+        <mxCell id="xvyZv3gFTRO0YD9s6IlB-4" value="选择不良贷款处置过的核销贷款" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="9btyKKKbJC0oI43shrb9-1">
           <mxGeometry x="200" y="340" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xvyZv3gFTRO0YD9s6IlB-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="9btyKKKbJC0oI43shrb9-1" source="xvyZv3gFTRO0YD9s6IlB-33">
@@ -1797,7 +1797,7 @@
         <mxCell id="xvyZv3gFTRO0YD9s6IlB-20" value="核算子系统" style="swimlane;align=center;" vertex="1" parent="9btyKKKbJC0oI43shrb9-1">
           <mxGeometry x="530" y="150" width="330" height="1180" as="geometry" />
         </mxCell>
-        <mxCell id="xvyZv3gFTRO0YD9s6IlB-21" value="其他置换回表" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="xvyZv3gFTRO0YD9s6IlB-20">
+        <mxCell id="xvyZv3gFTRO0YD9s6IlB-21" value="核销冲回" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="xvyZv3gFTRO0YD9s6IlB-20">
           <mxGeometry x="140" y="490" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xvyZv3gFTRO0YD9s6IlB-22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="xvyZv3gFTRO0YD9s6IlB-20" source="xvyZv3gFTRO0YD9s6IlB-21">
