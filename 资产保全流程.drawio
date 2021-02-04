@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T02:33:53.934Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="fektzdYJDlREmzJSw_ig" version="13.8.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-02-04T02:34:47.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="SbPch9-JQhNTCEWsaFgd" version="13.8.8" type="github" pages="5">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1190" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -647,7 +647,7 @@
             <mxPoint x="260" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qfw7DKJf8B4qrMnaqgmi-1" value="选择不良贷款贷款" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="SdQZklF-WD8hw5FTv-XN-1">
+        <mxCell id="Qfw7DKJf8B4qrMnaqgmi-1" value="选择不良贷款贷款（可选多笔）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="SdQZklF-WD8hw5FTv-XN-1">
           <mxGeometry x="200" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qfw7DKJf8B4qrMnaqgmi-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="SdQZklF-WD8hw5FTv-XN-1" source="Qfw7DKJf8B4qrMnaqgmi-1">
@@ -758,7 +758,7 @@
         <mxCell id="Qfw7DKJf8B4qrMnaqgmi-28" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="Qfw7DKJf8B4qrMnaqgmi-23" source="Qfw7DKJf8B4qrMnaqgmi-29" target="Qfw7DKJf8B4qrMnaqgmi-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qfw7DKJf8B4qrMnaqgmi-29" value="通知用信更新借据金额和状态（）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="Qfw7DKJf8B4qrMnaqgmi-23">
+        <mxCell id="Qfw7DKJf8B4qrMnaqgmi-29" value="通知用信更新借据金额和状态" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="Qfw7DKJf8B4qrMnaqgmi-23">
           <mxGeometry x="145" y="790" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qfw7DKJf8B4qrMnaqgmi-30" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;align=left;" vertex="1" parent="Qfw7DKJf8B4qrMnaqgmi-23">
