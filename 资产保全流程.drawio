@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T03:03:29.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="R2-UeuxOdkayMGIwd-Gb" version="13.8.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-02-04T03:05:05.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="EPYJK8KyGT32ToGO4a_i" version="13.8.8" type="github" pages="8">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1190" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -858,7 +858,7 @@
             <mxPoint x="260" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TZkjQY71_Lea2EdSPjTN-1" value="选择不良贷款贷款（可选多笔）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="aYcPe84mY-Uuhkiw_xtF-1">
+        <mxCell id="TZkjQY71_Lea2EdSPjTN-1" value="选择不良贷款（可选多笔）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="aYcPe84mY-Uuhkiw_xtF-1">
           <mxGeometry x="200" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TZkjQY71_Lea2EdSPjTN-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="aYcPe84mY-Uuhkiw_xtF-1" source="TZkjQY71_Lea2EdSPjTN-1">
@@ -1035,7 +1035,7 @@
             <mxPoint x="260" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bMfawKtbMsxZexrLSmB4-1" value="选择不良贷款贷款" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="tK-FcwJvf_hFUc9QuU15-1">
+        <mxCell id="bMfawKtbMsxZexrLSmB4-1" value="选择不良贷款" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="tK-FcwJvf_hFUc9QuU15-1">
           <mxGeometry x="200" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bMfawKtbMsxZexrLSmB4-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="tK-FcwJvf_hFUc9QuU15-1" source="bMfawKtbMsxZexrLSmB4-1">
@@ -1212,7 +1212,7 @@
             <mxPoint x="260" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I0wNQMDmlyha5D69tQ0N-1" value="选择不良贷款贷款" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="X0CDBBsBekV4TNytz6U1-1">
+        <mxCell id="I0wNQMDmlyha5D69tQ0N-1" value="选择不良合同" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="X0CDBBsBekV4TNytz6U1-1">
           <mxGeometry x="200" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="I0wNQMDmlyha5D69tQ0N-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="X0CDBBsBekV4TNytz6U1-1" source="I0wNQMDmlyha5D69tQ0N-1">
@@ -1228,7 +1228,7 @@
             <mxPoint x="260" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I0wNQMDmlyha5D69tQ0N-4" value="发起减免申请" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="X0CDBBsBekV4TNytz6U1-1">
+        <mxCell id="I0wNQMDmlyha5D69tQ0N-4" value="发起抵债申请" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="X0CDBBsBekV4TNytz6U1-1">
           <mxGeometry x="200" y="340" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="I0wNQMDmlyha5D69tQ0N-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="X0CDBBsBekV4TNytz6U1-1" source="I0wNQMDmlyha5D69tQ0N-7" target="I0wNQMDmlyha5D69tQ0N-13">
@@ -1263,7 +1263,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="I0wNQMDmlyha5D69tQ0N-12" value="重新发起减免" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I0wNQMDmlyha5D69tQ0N-11">
+        <mxCell id="I0wNQMDmlyha5D69tQ0N-12" value="重新发起抵债" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I0wNQMDmlyha5D69tQ0N-11">
           <mxGeometry x="-0.5087" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1335,7 +1335,7 @@
         <mxCell id="I0wNQMDmlyha5D69tQ0N-27" value="核算子系统" style="swimlane;align=center;" vertex="1" parent="X0CDBBsBekV4TNytz6U1-1">
           <mxGeometry x="530" y="150" width="330" height="1180" as="geometry" />
         </mxCell>
-        <mxCell id="I0wNQMDmlyha5D69tQ0N-28" value="减免" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="I0wNQMDmlyha5D69tQ0N-27">
+        <mxCell id="I0wNQMDmlyha5D69tQ0N-28" value="以资抵债" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="I0wNQMDmlyha5D69tQ0N-27">
           <mxGeometry x="140" y="490" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="I0wNQMDmlyha5D69tQ0N-29" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="I0wNQMDmlyha5D69tQ0N-27" source="I0wNQMDmlyha5D69tQ0N-28">
