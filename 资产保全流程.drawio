@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T03:46:29.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="oGURDgzJsqugRTh7W16U" version="13.8.8" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-02-04T03:47:43.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="B1zIc4O8uQpGANJsdqPt" version="13.8.8" type="github" pages="12">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1190" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -968,7 +968,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TZkjQY71_Lea2EdSPjTN-20" value="资产保全" style="swimlane;align=center;" vertex="1" parent="aYcPe84mY-Uuhkiw_xtF-1">
-          <mxGeometry x="60" y="150" width="1070" height="1180" as="geometry" />
+          <mxGeometry x="60" y="150" width="470" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="jWW5psJuBop534-lwC-4-0" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TZkjQY71_Lea2EdSPjTN-20">
           <mxGeometry x="30" y="500" width="1040" height="420" as="geometry" />
